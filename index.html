@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Music Player</h1>
+  <div id="uploader">
+    <input type="file" id="audioFile" accept="audio/*">
+  </div>
+  <div id="info">
+    <img id="albumArt" src="" alt="Album Art Preview" />
+    <p id="fileName"></p>
+  </div>
+  <audio id="player" controls></audio>
+  <div id="controls">
+    <label for="tempoRange">BPM:</label>
+    <input type="range" id="tempoRange" min="-20" max="20" value="0">
+    <span id="tempoValue">0</span>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jsmediatags@3.9.5/dist/jsmediatags.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

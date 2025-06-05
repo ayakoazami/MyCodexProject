@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+
+#uploader input {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+#info {
+  margin-top: 20px;
+}
+
+#albumArt {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+#controls {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+#tempoRange {
+  width: 80%;
+  height: 30px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#tempoValue {
+  margin-left: 10px;
+  font-weight: bold;
+}
